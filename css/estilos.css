@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+	
+*{
+	margin: 0;
+	padding: 0;
+	border:0;	
+	list-style: none;
+	box-sizing: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.caja_principal{
+    max-width: 1000px;
+    width: 100%;
+    background-color: #000000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: #0368B8 solid 1px;
+    align-items: center;
+}
+
+.logo{
+    max-width: 50px;
+    width: 100%;
+}
+
+.menu{
+    width: 5%;
+    height: 100%;
+}
+
+.dropdown-menu.show{
+    background-color: #000000;
+    font-family: 'Bree Serif', serif;
+}
+
+a.dropdown-item {
+    color:#FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    
+}
+
+a.dropdown-item img{
+    width: 30px;
+    margin: 0px 5px;
+}
+
+#defaultDropdown{
+    background-color: #000000;
+    border: none;
+    width: 60px;
+    
+}
+
+#defaultDropdown img{
+    width: 50px;
+}
+
+span{
+    font-size: 20px;
+}
+
+.sinopsis{
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1, h2{
+    font-family: 'Bree Serif', serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.d-block{
+    max-width: 960Px;
+    width: 100%;
+    padding: 2px; 
+    margin:auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px #0368B8;
+    margin-bottom: 10px;
+    
+}
+
+
+p{
+  font-family: 'Lato', sans-serif;
+  padding: 20px;  
+  text-align: justify;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border: #0368B8 solid 1px;
+    margin-top: none;
+    font-size: 12px;
+}
+
+.card{
+    max-width: 50px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px #0368B8;
+    border-radius: 20px;
+
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.targetas{
+   display: flex;
+   justify-content: space-evenly;
+}
+.reparto{
+    padding: 20px 20px;
+    
+}
+.trailer{
+    text-align: center;
+}
+
+.trailer p{
+    text-align:  inherit;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+video{
+   max-width: 700px;
+    width: 100%;
+}
+
+@media screen and (max-width:500px){
+    header h1{
+        font-size: 18px;
+       
+      
+      }
+
+      header h1 span{
+           font-size: 12px;
+      }
+
+     .sinopsis h2{
+        font-size: 18px;
+      
+      }
+
+      .sinopsis p{
+        font-size: 16px;
+      
+      }
+
+      .trailer h2{
+        font-size: 18px; 
+      }
+
+      .trailer p{
+        font-size: 12px;
+      
+      }
+
+      .reparto h2{
+        font-size: 18px;
+      
+      }
+
+      footer{
+          font-size: 8px;
+      }
+
+      .card{
+       
+        padding: 40px;
+        margin: 20px 30px;
+        
+    }
+
+    .row> {
+         flex-shrink: -1;
+}
+}
