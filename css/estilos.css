@@ -118,17 +118,18 @@ footer{
     font-size: 12px;
 }
 
-.card{
+.card1{
+    background-color: #FFFFFF;
     max-width: 50px;
     width: 100%;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 30px 10px;
     box-shadow: 3px 3px 3px #0368B8;
     border-radius: 20px;
 
 }
 
-.card-title{
+.card1-title{
     text-align: center;
     font-family: 'Bree Serif', serif;
     margin: 10px;
@@ -190,6 +191,11 @@ video{
       
       }
 
+      .reparto{
+        padding: 20px 40px;
+        
+    }
+
       .reparto h2{
         font-size: 18px;
       
@@ -199,10 +205,10 @@ video{
           font-size: 8px;
       }
 
-      .card{
+      .card1{
        
-        padding: 40px;
-        margin: 20px 30px;
+        padding: 30px;
+        margin: 20px 60px;
         
     }
 
